@@ -8,6 +8,7 @@
 
 .body {
     font-family: "Cairo", sans-serif;
+        background-image: url(human.jpg);
 }
 
 .top{
@@ -32,7 +33,7 @@
     color: #1b80f3;
 }
 header {
-background-image: url(human.jpg);
+    background-image: url(human.jpg);
     background-size:cover;
     height: auto;
     text-align: center;
