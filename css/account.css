@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/images/bullseye-gradient.svg);
+    background: url(bullseye-gradient.svg);
     background-size: cover;
     background-position: center;
 }
