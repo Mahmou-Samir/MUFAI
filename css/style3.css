@@ -32,7 +32,7 @@
     color: #1b80f3;
 }
 header {
-    background:url(human.jpg);
+background-image: url(human.jpg);
     background-size:cover;
     height: auto;
     text-align: center;
