@@ -1598,9 +1598,8 @@ footer a:hover {
     }
 
     .sec1 {
-        height: 100vh;
+        height: 70vh;
         display: block;
-        background: none;
     }
 
     .carousel .list .item .content {
