@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: "Cairo", sans-serif;
+}
+
+.top{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    color: #144782;
+}
+
+.top1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.top1 a{
+    color: #144782;
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+.top1 a:hover{
+    color: #1b80f3;
+}
+header {
+    background: url(/images/technology-human-touch-background-modern-remake-creation-adam.jpg);
+    background-size:cover;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.header {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    background-color: #f8f8f895;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.084);
+}
+
+h1 {
+    font-size: 3em;
+    color: #1a6cca;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #144782;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    transition: font-size 0.3s ease;
+}
+
+h3 {
+    background-color: #1a6cca;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: linear-gradient(transparent, #aebabed9);
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #d7dadb;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #1a6cca);
+    border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #1b80f3)
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(transparent, #144782);
+    border-radius: 6px;
+}
+
+.Download-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 20px;
+    color: white;
+    background: #1a6cca;
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em rgba(59, 48, 78, 0.527);
+    letter-spacing: 0.05em;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+}
+
+.Download-button svg {
+    margin-right: -7px;
+    width: 25px;
+}
+
+.Download-button:hover {
+    background: #0d965a;
+    box-shadow: 0 0.5em 1.5em -0.5em rgba(88, 71, 116, 0.627);
+}
+
+.Download-button:active {
+    box-shadow: 0 0.3em 1em -0.5em rgba(88, 71, 116, 0.627);
+}
+
+.Download-button::before {
+    content: "";
+    width: 4px;
+    height: 40%;
+    background-color: white;
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 0;
+    transition: all 0.2s;
+}
+
+.Download-button::after {
+    content: "";
+    width: 4px;
+    height: 40%;
+    background-color: white;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right: 0;
+    transition: all 0.2s;
+}
+
+.Download-button:hover::before,
+.Download-button:hover::after {
+    height: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .top{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    header{
+        background-position: center;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
