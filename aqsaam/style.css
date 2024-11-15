@@ -43,6 +43,65 @@ body {
     font-size: 18px;
     font-weight: 500;
 }
+.sec1{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    width: 90%;
+    margin: 0 auto;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: linear-gradient(transparent, #aebabed9);
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #d7dadb;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #0ec7ffd9);
+    border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #0ec7ff)
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(transparent, #00ade2);
+    border-radius: 6px;
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .sec1 img{
+        width: 400px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+.sec1{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    width: 90%;
+    margin: 0 auto;
+}
 
 .sec2{
     margin-top: 70px;
@@ -132,13 +191,19 @@ footer a:hover {
         margin: 0 auto;
         width: 300px;
     }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        align-items: center;
+    }
+    table{
+        width: 100%;
+        transform: scale(.86);
+        transform-origin: right;
+    }
 }
-.sec1{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: auto;
-    align-items: center;
-}
+
 @media screen and (min-width:321px) and (max-width: 480px){
     .sec1 img{
         margin: 0 auto;
@@ -146,18 +211,26 @@ footer a:hover {
         height: 300px;
         margin-bottom: 20px;
     }
-}
-.sec1{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: auto;
-    align-items: center;
-}
-.p1{
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-}
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        align-items: center;
+    }
+    .p1{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+        transform: scale(.93);
+        transform-origin: right;
+    }
+    }
+
+
+
 
 @media screen and (min-width:481px) and (max-width: 568px) {
     .sec1 img{
@@ -166,7 +239,6 @@ footer a:hover {
         height: 300px;
         margin-bottom: 20px;
     }
-}
 .sec1{
     display: grid;
     grid-template-columns: 1fr;
@@ -175,9 +247,15 @@ footer a:hover {
     align-items: center;
     padding: 20px;
 }
+table{
+    width: 80%;
+    transform: scale(1);
+    transform-origin: center;
+}
 .p1{
     width: 90%;
     margin: 0 auto;
+}
 }
 @media screen and (min-width:568px) and (max-width: 640px){
     .sec1 img{
@@ -207,66 +285,6 @@ footer a:hover {
         margin: 0 auto;
     }
 }
-.sec1{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-}
-.p1{
-    width: 90%;
-    margin: 0 auto;
-}
-*::-webkit-scrollbar {
-    width: 10px;
-}
-
-*::-webkit-scrollbar-track {
-    background: linear-gradient(transparent, #aebabed9);
-}
-
-*::-webkit-scrollbar-track:hover {
-    background-color: #d7dadb;
-}
-
-*::-webkit-scrollbar-track:active {
-    background-color: #B8C0C2;
-}
-
-*::-webkit-scrollbar-thumb {
-    background: linear-gradient(transparent, #0ec7ffd9);
-    border-radius: 6px;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(transparent, #0ec7ff)
-}
-
-*::-webkit-scrollbar-thumb:active {
-    background: linear-gradient(transparent, #00ade2);
-    border-radius: 6px;
-}
-
-@media screen and (min-width:768px) and (max-width: 1024px) {
-    .sec1 img{
-        width: 400px;
-        margin-bottom: 20px;
-        margin: 0 auto;
-    }
-}
-.sec1{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-}
-.p1{
-    width: 90%;
-    margin: 0 auto;
-}
-
 @media screen and (min-width:1025px) {
     .sec1{
         height: 500px;
