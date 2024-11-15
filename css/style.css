@@ -255,7 +255,7 @@ body.darkmode {
     height: 100vh;
     align-items: center;
     margin-bottom: 40px;
-    background-image: url(ex.png);
+    background-image: url(/images/ex.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1346,6 +1346,40 @@ footer a:hover {
         font-size: 30px;
         color: #ffffff;
     }
+    .thumbnail .item {
+        width: 100px;
+        height: 150px;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .thumbnail .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .thumbnail .item .content {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .thumbnail .item .content .title {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: .9em;
+        margin-bottom: 10px;
+    }
+    .des{
+        color: #fff;
+        font-size: .8em;
+        font-weight: 600;
+        text-align: center;
+    }
 
     .green img {
         width: 100%;
@@ -1378,6 +1412,14 @@ footer a:hover {
         color: white;
         transition: 400ms;
         margin-bottom: 20%;
+    }
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
     }
 
     .section4 {
@@ -1517,7 +1559,6 @@ footer a:hover {
         margin-right: -20px;
     }
 
-
     .logo {
         width: 155px;
     }
@@ -1610,6 +1651,40 @@ footer a:hover {
         font-size: 30px;
         color: #ffffff;
     }
+    .thumbnail .item {
+        width: 100px;
+        height: 150px;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .thumbnail .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .thumbnail .item .content {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .thumbnail .item .content .title {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: .9em;
+        margin-bottom: 10px;
+    }
+    .des{
+        color: #fff;
+        font-size: .8em;
+        font-weight: 600;
+        text-align: center;
+    }
 
     .green img {
         width: 100%;
@@ -1618,6 +1693,14 @@ footer a:hover {
         margin-top: 30px;
         padding-bottom: 180px;
         scale: 1;
+    }
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
     }
 
     .section3 {
@@ -1635,8 +1718,8 @@ footer a:hover {
 
     .cards .card {
         text-align: center;
-        width:100%;
         height: 400px;
+        width: 100%;
         position: relative;
         border-radius: 10px;
         color: white;
@@ -1881,6 +1964,40 @@ footer a:hover {
         font-size: 30px;
         color: #ffffff;
     }
+    .thumbnail .item {
+        width: 100px;
+        height: 150px;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .thumbnail .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .thumbnail .item .content {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .thumbnail .item .content .title {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: .9em;
+        margin-bottom: 10px;
+    }
+    .des{
+        color: #fff;
+        font-size: .8em;
+        font-weight: 600;
+        text-align: center;
+    }
 
     .green img {
         width: 100%;
@@ -1889,6 +2006,14 @@ footer a:hover {
         margin-top: 30px;
         padding-bottom: 180px;
         scale: 1;
+    }
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
     }
 
     .section3 {
@@ -2126,6 +2251,40 @@ footer a:hover {
         font-size: 30px;
         color: #ffffff;
     }
+    .thumbnail .item {
+        width: 100px;
+        height: 150px;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .thumbnail .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .thumbnail .item .content {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .thumbnail .item .content .title {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: .9em;
+        margin-bottom: 10px;
+    }
+    .des{
+        color: #fff;
+        font-size: .8em;
+        font-weight: 600;
+        text-align: center;
+    }
 
     .green img {
         width: 100%;
@@ -2134,6 +2293,14 @@ footer a:hover {
         margin-top: 30px;
         padding-bottom: 180px;
         scale: 1;
+    }
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
     }
 
     .section3 {
@@ -2371,6 +2538,40 @@ footer a:hover {
         font-size: 30px;
         color: #ffffff;
     }
+    .thumbnail .item {
+        width: 100px;
+        height: 150px;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .thumbnail .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .thumbnail .item .content {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .thumbnail .item .content .title {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: .9em;
+        margin-bottom: 10px;
+    }
+    .des{
+        color: #fff;
+        font-size: 1em;
+        font-weight: 600;
+        text-align: center;
+    }
 
     .green img {
         width: 100%;
@@ -2403,6 +2604,14 @@ footer a:hover {
         color: white;
         transition: 400ms;
         margin-bottom: 5%;
+    }
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
     }
 
     .section4 {
@@ -2650,6 +2859,42 @@ footer a:hover {
         transition: 400ms;
         margin-bottom: 5%;
     }
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
+    }
+    .thumbnail .item {
+        width: 100px;
+        height: 150px;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .thumbnail .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .thumbnail .item .content {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .thumbnail .item .content .title {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: .9em;
+        margin-bottom: 10px;
+    }
 
     .section4 {
         height: auto;
@@ -2741,7 +2986,7 @@ footer a:hover {
     }
 
     .nav-bar ul li a {
-        font-size: 10px;
+        font-size: 12px;
         margin-left: 12px;
     }
 
@@ -2861,6 +3106,7 @@ footer a:hover {
     }
 
     .student {
+        display: block;
         width: 100%;
         height: auto;
     }
