@@ -255,7 +255,7 @@ body.darkmode {
     height: 100vh;
     align-items: center;
     margin-bottom: 40px;
-    background-image: url(/images/ex.png);
+    background-image: url(ex.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1380,6 +1380,11 @@ footer a:hover {
         font-weight: 600;
         text-align: center;
     }
+    .carousel .list .item .topic {
+        color: #00ade2;
+        text-align: center;
+        font-size: 2rem;
+    }
 
     .green img {
         width: 100%;
@@ -1684,6 +1689,11 @@ footer a:hover {
         font-size: .8em;
         font-weight: 600;
         text-align: center;
+    }
+    .carousel .list .item .topic {
+        color: #00ade2;
+        text-align: center;
+        font-size: 2rem;
     }
 
     .green img {
@@ -1999,6 +2009,11 @@ footer a:hover {
         text-align: center;
     }
 
+    .carousel .list .item .topic {
+        color: #00ade2;
+        text-align: center;
+        font-size: 2rem;
+    }
     .green img {
         width: 100%;
         height: 100%;
@@ -2986,8 +3001,8 @@ footer a:hover {
     }
 
     .nav-bar ul li a {
-        font-size: 12px;
-        margin-left: 12px;
+        font-size: .65em;
+        margin-left: 10px;
     }
 
     .btn {
@@ -3080,6 +3095,15 @@ footer a:hover {
         color: white;
         transition: 400ms;
         margin-bottom: 5%;
+    }
+
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
     }
 
     .section4 {
@@ -3254,6 +3278,14 @@ footer a:hover {
         transition: 400ms;
         margin-bottom: 5%;
     }
+    .cards .card:hover {
+        transform: scale(1, 1);
+    }
+    
+    .cards:hover>.card:not(:hover) {
+        filter: blur(0px);
+        transform: scale(1, 1);
+    }
 
     .section4 {
         height: auto;
@@ -3345,7 +3377,8 @@ footer a:hover {
     }
 
     .nav-bar ul li a {
-        font-size: 16px;
+        font-size: .81em;
+        font-weight: 800;
     }
 
     .btn {
