@@ -630,7 +630,7 @@ body.darkmode {
 
 .section3 {
     width: 100%;
-    height: 72vh;
+    height: 77vh;
     margin-top: 30px;
 }
 
@@ -1022,7 +1022,7 @@ body.darkmode {
 
 .conact {
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     background-color: #00ade2;
     text-align: center;
     color: white;
@@ -3531,180 +3531,5 @@ footer a:hover {
         text-align: center;
         width: 100%;
         font-size: 14px;
-    }
-}
-
-@media screen and (min-width: 1281px) and (max-width:1400px) {
-    .nav-bar {
-        height: 90px;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .nav-bar ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        margin-top: -10px;
-        margin-left: -60px;
-    }
-
-    .nav-bar ul li a {
-        font-size: 18px;
-    }
-
-    .btn {
-        margin-top: 5px;
-        position: relative;
-        margin-left: -40px;
-    }
-
-    .sign {
-        margin-top: -10px;
-        margin-left: -10px;
-    }
-
-    .logo {
-        width: 250px;
-        margin-top: -5px;
-    }
-
-    .sec1 {
-        height: 110vh;
-    }
-
-    .checkbtn {
-        display: none;
-    }
-
-    .nn {
-        --color: #1c3440;
-        line-height: 80px;
-        display: inline-block;
-        background-color: white;
-        width: 8em;
-        height: 2.6em;
-        line-height: 2.5em;
-        margin: 0;
-        cursor: pointer;
-        overflow: hidden;
-        border: 2px solid #1c3440;
-        transition: color 0.5s;
-        z-index: 1;
-    }
-
-    .sec1 {
-        height: 85vh;
-    }
-
-    .yaft img {
-        width: 480px;
-    }
-
-    .welcome {
-        font-size: 2rem;
-    }
-
-    .carousel .list .item .content {
-        padding-right: 0;
-    }
-
-    .carousel .list .item .content .title {
-        font-size: 30px;
-        color: #ffffff;
-    }
-
-    .section3 {
-        height: auto;
-    }
-
-    .cards {
-        width: auto;
-        margin: 0;
-    }
-
-    .cards .card {
-        text-align: center;
-        height: 400px;
-        margin: auto;
-        position: relative;
-        border-radius: 10px;
-        color: white;
-        transition: 400ms;
-        margin-bottom: 5%;
-    }
-
-    .section4 {
-        height: auto;
-        display: block;
-        width: 100%;
-    }
-
-    .box {
-        height: 300px;
-        margin-bottom: 20px;
-    }
-
-    .section4 h2 {
-        margin: 0px;
-    }
-
-    .card-info span {
-        font-size: 1.2rem;
-    }
-
-    .card-info p {
-        font-size: .9rem;
-    }
-
-    .student {
-        width: 100%;
-        height: auto;
-    }
-
-    .student1 {
-        height: 350px;
-        margin-bottom: 20px;
-    }
-
-    .student2 {
-        height: 350px;
-    }
-
-    .form-2 {
-        width: 350px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        border: #f0f0f0 2px solid;
-        border-radius: 10px;
-        padding: 30px;
-    }
-
-    .social-media {
-        background-color: #00ade2;
-    }
-
-    .conact {
-        height: auto;
-    }
-
-    .conact p {
-        color: #ffffff;
-        font-size: 14px;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .footer {
-        background-color: #00ade2;
-        color: white;
-        padding: 13px;
-        text-align: center;
-        width: 100%;
-        font-size: 14px;
-    }
-        .conact{
-        height: 95vh;
     }
 }
