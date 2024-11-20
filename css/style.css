@@ -3531,3 +3531,20 @@ footer a:hover {
         font-size: 14px;
     }
 }
+
+@media screen and (min-width: 1281px) and (max-width:1400px) {
+    .nav-bar {
+        height: 110px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-bar ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-top: -10px;
+    }
+    .section3{
+        height: auto;
+    }
+}
