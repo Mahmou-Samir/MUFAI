@@ -1632,7 +1632,6 @@ footer a:hover {
 
     .l3 {
         font-size: 1rem;
-
     }
 
     .welcome {
@@ -1902,7 +1901,7 @@ footer a:hover {
     }
 
     .sec1 {
-        height: 70vh;
+        height: 85vh;
     }
 
     .checkbtn {
@@ -1956,7 +1955,7 @@ footer a:hover {
 
     .welcome {
         position: absolute;
-        top: 50%;
+        top: 40%;
         right: 10%;
         margin: 0;
     }
